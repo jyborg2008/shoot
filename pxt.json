@@ -1,0 +1,23 @@
+{
+    "name": "shoot!",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "palette": "*",
+        "edge-connector": "*",
+        "light": "*",
+        "animation": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
