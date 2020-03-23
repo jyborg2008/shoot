@@ -687,6 +687,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Player, function (sprite, ot
 let projectile: Sprite = null
 let mySprite2: Sprite = null
 let mySprite: Sprite = null
+game.splash("Need two players to play!")
 info.startCountdown(5)
 mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . . . . . . . . . . 
